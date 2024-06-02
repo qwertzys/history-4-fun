@@ -64,7 +64,7 @@ body {
 #board img {
     width: 80px;
     height: 80px;
-    border: 0.5px solid lightblue;
+    border: 0.5px solid black;
 }
 
 #pieces {
@@ -78,7 +78,7 @@ body {
 }
 
 #pieces img {
-    width: 79px;
-    height: 79px;
-    border: 0.5px solid lightblue;
+    width: 80px;
+    height: 80px;
+    border: 0.5px solid black;
 }
