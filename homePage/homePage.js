@@ -9,7 +9,7 @@ window.load = function(){
     for (let i = 0; i < row; i++){
         for (let j = 0; j < column; j++){
             let tile = document.createElement("img");
-            tile.src = "./blank.jpg";// Insert image here
+            tile.src = "/puzzleImage/blank.jpg";// Insert image here
 
                 // Drag functionality
             tile.addEventListener("dragstart", dragStart); // click on mg to drag
@@ -43,7 +43,7 @@ for (let i=0;i<pieces.length;i++){
 // Load Pieces
 for (let i=0;i<pieces.length;i++){
     let tile = document.createElement("img");
-    tile.src = "./blank.jpg" // Place holder, later add iamge based on number
+    tile.src = "/puzzleImages/blank.jpg" // Place holder, later add iamge based on number
     
     // Drag functionality
     tile.addEventListener("dragstart", dragStart); // click on mg to drag

@@ -16,14 +16,20 @@ body {
 .header {
     position:fixed; 
     top: 0;
-    left: 0;
+    left: 10;
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 35px;
     background: brown;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.header .logo{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 .navbar a {
