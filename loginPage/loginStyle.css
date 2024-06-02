@@ -95,6 +95,10 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
+.wrapper .btn a{
+    text-decoration: none;
+}
+
 .wrapper .register-link {
     font-size: 14px;
     text-align: center;

@@ -88,3 +88,9 @@ function dragEnd(){
     otherImg.src = currImg;
 }
 
+function isSolved(){
+    if(currTile.src.isSolved){
+        
+    }
+}
+
