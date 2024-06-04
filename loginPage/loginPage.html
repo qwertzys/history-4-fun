@@ -6,19 +6,20 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="loginStyle.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- LIbrary for getting icons Boxicons -->
+    <script defer src="./loginScript.js"></script>
 </head>
 <body>
     <div class="wrapper">
-        <form action="">
+        <form action="" autocomplete="off">
             <!-- Login -->
             <h1>Login</h1>
-            <div class="input-box" id="username">
-                <input type="text" placeholder="Username" required>
+            <div class="input-box">
+                <input type="text" placeholder="Username"  id="username">
                 <i class='bx bxs-user' ></i> <!-- User Icon -->
             </div>
             <!-- Password -->
             <div class="input-box">
-                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Password"  id="password">
                 <i class='bx bxs-lock-alt' ></i> <!-- Password Icon -->
             </div>
             <!-- Remember me Box -->
@@ -27,7 +28,7 @@
                 <a href="#">Forgot Password?</a>
             </div>
             <!-- Submit Button -->
-            <button type="submit" class="btn"><a href="../homePage/homePage.html">Login</a></button>
+            <button type="button" class="btn" onclick="checkInputs()">Login</button>
             <!-- Register Button -->
             <div class="register-link">
                 <p>Don't have account? <a href="../registrationPage/registrationPage.html">Register</a></p>

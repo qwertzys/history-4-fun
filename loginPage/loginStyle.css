@@ -10,16 +10,20 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh; /* I don't know what this is */
-    /* background: purple; */
+    background-image: url("../\(images\)/background3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 .wrapper {
     width: 420px;
-    background: purple;
+    background: brown;
     border: 2px solid rgba(255, 255, 255, .2);
     color: white;
     border-radius: 10px;
-    padding: 30px 40px 
+    padding: 30px 40px;
 }
 
 .wrapper h1 {
@@ -97,6 +101,7 @@ body {
 
 .wrapper .btn a{
     text-decoration: none;
+    color: black;
 }
 
 .wrapper .register-link {
