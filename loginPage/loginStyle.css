@@ -1,0 +1,170 @@
+* { /* General Styling used throughout Login Style */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* Might need to import font for this */
+}
+
+.header {
+    position:fixed; 
+    top : 0;
+    left : 0;
+    height :90px;
+    width: 100%;
+    padding:10px 20px;
+    background: #6F4E37;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    width:100px;
+
+}
+.profile{
+    width:90px;
+    margin-right: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* I don't know what this is */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.profilelogo{
+    width: 400px;
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Inknut Antiqua', sans-serif;
+    color:#503828;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-color: #6F4E37;
+    margin: 30px 0;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255, 245, 231);
+    border: none; /* Not sure why it's stated twice */
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: #6F4E37;
+    border-color:#6F4E37;
+    padding: 20px 45px 20px 20px;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.input-box input::placeholder {
+    color:#6F4E37;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color:#6F4E37;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.remember-forgot label input {
+    accent-color: #6F4E37;
+    margin-right: 3px;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 40%;
+    
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    background-color:#6F4E37 ;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px, rgba(0, 0, 0, .1);
+    cursor: pointer; 
+    font-size: 16px;
+    color:rgb(249, 238, 223);
+    font-weight: 600;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.wrapper .btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper .register-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rmbtn{
+    font-family: 'Inknut Antiqua', sans-serif;
+    color:#6F4E37
+}
+
+.register-link p a {
+    color:#6F4E37;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.noacc{
+    font-family: 'Inknut Antiqua', sans-serif;
+    color:#6F4E37
+}
+
