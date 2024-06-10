@@ -1,0 +1,193 @@
+
+.title{
+    font-size: 10px;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    
+}
+
+.header {
+    position:fixed; 
+    top : 0;
+    left : 0;
+    height :70px;
+    width: 100%;
+    padding: 10px 20px;
+    background: #6F4E37;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+p{
+    display:inline;
+    margin-bottom: 100px;
+    text-align: center;
+    float:left;
+   
+}
+
+.Prof{
+    font-family: 'Inknut Antiqua', sans-serif;
+    margin-right:100px;
+    font-size: 20px;
+    color:antiquewhite;
+    text-align: center;
+    margin-top:100px;
+    
+}
+
+.Mats{
+    font-family: 'Inknut Antiqua', sans-serif;
+    margin-right:100px;
+    font-size: 20px;
+    color:antiquewhite;
+    margin-top:100px;
+    
+} 
+
+.logo{
+    width:100px;
+
+}
+.profile{
+    margin-top:84px;
+    width:90px;
+    margin-right: 40px;
+
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color:white;
+    font-weight: 500;
+    text-decoration: none;
+   
+}
+
+.line1{
+    display: inline;
+}
+
+.customize{
+    width:20%;
+}
+
+.proftxt{
+    width: 400px;
+    font-weight: bold;
+    padding-top:0px;
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inknut Antiqua', sans-serif;
+    font-size: 50px;
+    color:#6F4E37;
+}
+
+.input-box {
+    position: relative;
+    width: 20%;
+    height: 10px;
+    border-color: #6F4E37;
+    
+    font-family: 'Inknut Antiqua', sans-serif;
+    width: 400px;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255, 245, 231);
+    border: none; /* Not sure why it's stated twice */
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: #6F4E37;
+    border-color:#6F4E37;
+    padding: 20px 45px 20px 20px;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.input-box input::placeholder {
+    color:#6F4E37;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color:#6F4E37;
+}
+
+.input-box2 {
+    position: relative;
+    width: 90%;
+    height: 100px;
+    border-color: #6F4E37;
+    
+    font-family: 'Inknut Antiqua', sans-serif;
+    width: 900px;
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-box2 input {
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255, 245, 231);
+    border: none; /* Not sure why it's stated twice */
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: #6F4E37;
+    border-color:#6F4E37;
+    padding: 20px 45px 20px 20px;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.input-box2 input::placeholder {
+    color:#6F4E37;
+}
+
+.input-box2 i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color:#6F4E37;
+}
+
+.logout{
+    background-color: #6F4E37;
+    width: 20%;
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border:none;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
