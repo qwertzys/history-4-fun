@@ -43,8 +43,8 @@ body {
 }
 
 .profilelogo{
-    width: 400px;
-    margin-top: 100px;
+    width: 250px;
+    margin-top: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -118,7 +118,7 @@ body {
 }
 
 .btn {
-    width: 40%;
+    width: 70%;
     
     margin-left:auto;
     margin-right:auto;

@@ -11,15 +11,16 @@ body {
     align-items: center;
     min-height: 100vh;
     /* background: brown; */
+    background: linear-gradient(to bottom, burlywood, white)
 }
 
 .wrapper {
     width: 750px;
-    background: brown;
+    background: burlywood;
     border: 2px solid rgba(0, 0, 0, rgba(255, 255, 255, .2));
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, rgba(255, 255, 255, .2));;
-    color: white;
+    color: #6F4E37;
     padding: 40px 35px 55px;
     margin: 0 10px;
 }
@@ -28,6 +29,7 @@ body {
     font-size: 36px;
     text-align: center;
     margin-bottom: 20px;
+    color:#6F4E37;
 }
 
 .wrapper .input-box {
@@ -50,13 +52,14 @@ body {
     border: 2px solid rgba(255, 255, 255, .2);
     outline: none;
     font-size: 16px;
-    color: white;
+    color: #6F4E37;
     border-radius: 6px;
     padding: 15px 15px 15px 40px;
+    /* background-color:rgb(255, 245, 231); */
 }
 
 .input-box .input-field input::placeholder {
-    color: white;
+    color: #6F4E37;
 }
 
 .input-box .input-field i {
@@ -81,7 +84,7 @@ body {
 .wrapper .btn {
     width: 100%;
     height: 45px;
-    background: white;
+    background: #a2724f;
     border: none;
     outline: none;
     border-radius: 6px;
@@ -89,6 +92,7 @@ body {
     cursor: pointer;
     color: black;
     font-weight: 600;
+    color: white;
 }
 
 @media (max-width: 576px) {

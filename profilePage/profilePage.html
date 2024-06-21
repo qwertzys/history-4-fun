@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
     <link rel="stylesheet" href="profileStyle.css">
+    <script defer src="profileScript.js"></script>
     <!-- <script src="homeScript.js"></script>  --> <!-- javascript code-->
 </head>
 
@@ -13,7 +14,7 @@
     <link href='https://fonts.googleapis.com/css?family=Inknut Antiqua' rel='stylesheet'>
     <header class="header">
 
-        <img src = "../(images)/SELogo.png" class="logo">
+        <img src = "../(images)/SELogo.png" class="logo" onclick="navigateToHome()">
        
         <nav class="navbar">
 
@@ -43,7 +44,7 @@
             <i class='bx bxs-user' ></i> <!-- User Icon -->
     </div>
 
-   <button class="logout">Log out</button>
+   <button class="logout" onclick="logOut()">Log out</button>
   
 
 

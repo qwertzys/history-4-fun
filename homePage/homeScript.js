@@ -57,6 +57,14 @@ window.onload = function() {
     }
 }
 
+function navigateToProfile() {
+    window.location.href = "../profilePage/profilePage.html"
+}
+
+function navigateToHome() {
+    window.location.href = "../homePage/homePage.html"
+}
+
 function dragStart(){
     currTile = this;
 }
